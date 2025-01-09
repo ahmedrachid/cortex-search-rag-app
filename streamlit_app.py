@@ -4,6 +4,7 @@ from snowflake.cortex import Complete
 from snowflake.snowpark.context import get_active_session
 
 MODELS = [
+    'mistral-large2',
     'jamba-1.5-mini',
     'jamba-1.5-large',
     'jamba-instruct',
@@ -16,7 +17,6 @@ MODELS = [
     'llama3.2-1b',
     'llama3.2-3b',
     'mistral-large',
-    'mistral-large2',
     'mistral-7b',
     'mixtral-8x7b',
     'reka-core',
